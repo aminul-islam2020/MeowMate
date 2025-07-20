@@ -92,7 +92,7 @@ export function Footer() {
                 {/* Bottom Section */}
                 <div className="border-t border-green-800 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
                     <p className="text-xs text-green-100">
-                        © {new Date().getFullYear()} PurrfectStay Cat Hostel. All rights reserved.
+                        © {new Date().getFullYear()} MeowMate Cat Hostel. All rights reserved.
                     </p>
                     <nav className="flex gap-4 sm:gap-6 mt-4 sm:mt-0">
                         <Link href="#" className="text-xs hover:underline underline-offset-4 text-green-100 hover:text-white">

@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import { Heart, Star, Play } from "lucide-react"
+// import { Image2 } from "../assets/hero-img.jpeg"
 
 export function HeroSection() {
     const [isVideoPlaying, setIsVideoPlaying] = useState(false)
@@ -56,17 +57,17 @@ export function HeroSection() {
                     <div className="flex items-center justify-center">
                         <div className="relative">
                             <Image
-                                src="/placeholder.svg?height=400&width=400&text=Happy+Cats+Playing"
-                                width={400}
-                                height={400}
-                                alt="Happy orange and gray cats playing together in a cozy hostel room with cat trees and toys"
-                                className="mx-auto aspect-square overflow-hidden rounded-3xl object-cover shadow-2xl"
+                                src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?_gl=1*18by2ji*_ga*ODE4NzY4NDk0LjE3NTMwMzE1NDk.*_ga_8JE65Q40S6*czE3NTMwMzQxODkkbzIkZzEkdDE3NTMwMzQ2MjMkajQ3JGwwJGgw"
+                                alt="Adorable cat lying on a cozy blanket"
+                                width={600}
+                                height={600}
                                 priority
+                                className="mx-auto aspect-square overflow-hidden rounded-3xl object-cover shadow-2xl"
                             />
                             <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl p-4 shadow-lg">
                                 <div className="flex items-center space-x-2">
                                     <div className="flex -space-x-1">
-                                        {[1, 2, 3, 4, 5].map((i) => (
+                                        {[1, 2, 3, 4].map((i) => (
                                             <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                                         ))}
                                     </div>

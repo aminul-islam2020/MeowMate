@@ -28,7 +28,7 @@ export function Navbar() {
                         <span>Home</span>
                     </Link>
                     <Link
-                        href="/providers"
+                        href="/Provider"
                         className="flex items-center space-x-1 text-green-700 hover:text-green-600 transition-colors"
                     >
                         <Users className="w-4 h-4" />

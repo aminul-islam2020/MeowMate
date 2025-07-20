@@ -1,4 +1,6 @@
-import { Heart, Shield, Clock, Award, Users, Zap } from "lucide-react"
+import { HeartMinus, Shield, Clock, Award, Users, Zap } from "lucide-react"
+
+<HeartMinus />
 
 export function FeaturesSection() {
     const features = [
@@ -9,7 +11,7 @@ export function FeaturesSection() {
                 "24/7 monitoring, secure facilities, and trained staff ensure your cat's safety and well-being at all times.",
         },
         {
-            icon: Heart,
+            icon: HeartMinus,
             title: "Loving Care",
             description:
                 "Individual attention, playtime, and cuddles from our cat-loving staff who treat your pet like family.",
